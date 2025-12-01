@@ -21,11 +21,11 @@ The implementation includes complete Python modules for both insecure and secure
 
 2. Objectives
 
-✔ Demonstrate the vulnerabilities of plaintext MQTT systems
-✔ Implement a secure, cryptography-based communication pipeline
-✔ Integrate RSA, AES-GCM, and DSA for confidentiality, integrity & authenticity
-✔ Apply replay protection and constant-time comparison
-✔ Quantitatively measure security overhead and attack success rates
+ Demonstrate the vulnerabilities of plaintext MQTT systems
+ Implement a secure, cryptography-based communication pipeline
+ Integrate RSA, AES-GCM, and DSA for confidentiality, integrity & authenticity
+ Apply replay protection and constant-time comparison
+ Quantitatively measure security overhead and attack success rates
 
 
 
