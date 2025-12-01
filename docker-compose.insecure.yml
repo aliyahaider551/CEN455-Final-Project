@@ -1,0 +1,46 @@
+version: '3.9'
+
+services:
+  sensor-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.sensor
+    container_name: sensor_insecure
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+
+  actuator-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.actuator
+    container_name: actuator_insecure
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+
+  attacker-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.attacker
+    container_name: attacker_insecure
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+
+  mqtt-broker:
+    image: eclipse-mosquitto:2
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+    volumes:
+    - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+    networks:
+      - mqtt-network
+
+networks:
+  mqtt-network:

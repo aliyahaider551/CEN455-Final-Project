@@ -1,0 +1,910 @@
+{"timestamp": "2025-11-23T21:41:38.101425Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:41:39.608893Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:41:41.626102Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:41:43.632449Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:41:45.648062Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:41:47.657942Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:41:49.662658Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:41:51.685438Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:41:53.692839Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:41:54.476701Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:41:56.004569Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:41:58.061315Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:42:00.066918Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:42:02.072465Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:42:04.177864Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:42:03.838817Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:42:05.860331Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:42:07.861667Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:42:08.557568Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:42:10.085460Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:42:12.100801Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:42:14.115597Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:42:16.128609Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:42:18.146258Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:42:20.158589Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:42:22.169932Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:42:24.179392Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:42:24.835673Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:42:26.380607Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:42:28.402903Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:42:30.428029Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:42:30.105975Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:42:32.183002Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:42:34.191533Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:42:36.195553Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:42:38.207800Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:42:39.079177Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:42:40.598242Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:42:42.613401Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:42:44.622292Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:42:46.633298Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:42:48.642964Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:42:50.651382Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:42:52.659366Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:42:54.665168Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:42:55.386840Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:42:56.908373Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:42:58.914936Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:42:58.657172Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:43:00.663592Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:43:02.688758Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:43:04.712776Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:43:06.735007Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:43:08.742956Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:43:09.478310Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:43:11.001261Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:43:13.020516Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:43:15.064662Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:43:17.092671Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:43:19.130240Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:43:21.176122Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:43:23.184964Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:43:25.216670Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:43:25.895763Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:43:27.458901Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:43:27.200934Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:43:29.238593Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:43:31.272675Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:43:33.317947Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:43:35.335296Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:43:37.341197Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:43:39.351311Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:43:40.157198Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:43:41.679613Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:43:43.687097Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:43:45.694435Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T21:43:47.706010Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T21:43:49.716896Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T21:43:51.738394Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T21:43:53.761269Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T21:43:53.472155Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T21:43:54.124950Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T21:43:55.689038Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T21:43:57.730099Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T21:43:59.758803Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:11:39.928410Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:11:41.456506Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:11:43.469574Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:11:45.477483Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:11:47.483690Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:11:49.501451Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:11:51.510648Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:11:53.516924Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:11:55.527185Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:11:56.233307Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:11:57.760551Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:11:59.813272Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:12:01.827092Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:12:03.833741Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:12:05.842495Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:12:05.540704Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:12:07.548602Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:12:09.560058Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:12:10.283970Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:12:11.821071Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:12:13.829164Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:12:15.845214Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:12:17.850912Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:12:19.923737Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:12:21.937549Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:12:23.999808Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:12:26.019045Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:12:26.706207Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:12:28.224728Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:12:30.250404Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:12:32.285483Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:12:31.968159Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:12:33.985680Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:12:35.995365Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:12:38.014110Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:12:40.017784Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:12:41.031349Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:12:42.556600Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:12:44.567104Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:12:46.574143Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:12:48.579962Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:12:50.589805Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:12:52.597685Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:12:54.612997Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:12:56.629613Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:12:57.414485Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:12:58.966087Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:13:00.989441Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:13:00.719503Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:13:02.739073Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:13:04.759873Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:13:06.772070Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:13:08.813666Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:13:10.829611Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:13:11.488122Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:13:13.028079Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:13:15.031422Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:13:17.072515Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:13:19.096009Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:13:21.104159Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:13:23.110245Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:13:25.121598Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:13:27.149143Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:13:27.822888Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:13:29.262481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:13:29.083269Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:13:31.092973Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:13:33.122677Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:13:35.166375Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:13:37.210969Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:13:39.262696Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:13:41.270269Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:13:41.943193Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:13:43.449648Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:13:45.458669Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:13:47.500278Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:13:49.505069Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:13:51.526438Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:13:53.534312Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:13:55.554460Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:13:55.224181Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:13:55.943381Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:13:57.457536Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:13:59.485432Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:14:01.502982Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:14:03.533481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:14:05.567829Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:14:07.602514Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:14:09.649059Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:14:11.654962Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:14:12.328201Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:14:13.883053Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:14:15.892536Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:14:17.917106Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:14:19.934367Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:14:21.948222Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:14:23.958529Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:14:23.629967Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:14:25.648268Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:14:26.257808Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:14:27.826286Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:14:29.899388Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:14:31.925403Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:14:33.973127Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:14:35.998624Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:14:38.051824Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:14:40.061981Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:14:42.070178Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:14:42.699804Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:14:44.227508Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:14:46.233683Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:14:48.272847Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:14:50.419002Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:14:52.361529Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:14:52.160597Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:14:54.166995Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:14:56.180990Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:14:56.843552Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:14:58.383734Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:15:00.400889Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:15:02.415643Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:15:04.428536Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:15:06.441602Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:15:08.448812Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:15:10.457426Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:15:12.462961Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:15:13.082835Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:15:14.606238Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:15:16.624286Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:15:18.639867Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:15:18.349373Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:15:20.363766Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:15:22.378018Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:15:24.392191Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:15:26.405841Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:15:27.068570Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:15:28.605902Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:15:30.622051Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:15:32.630237Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:15:34.636484Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:15:36.642969Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:15:38.648817Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:15:40.654464Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:15:42.672116Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:15:43.301584Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:15:44.820081Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:15:46.835111Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:15:46.546828Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:15:48.561953Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:15:50.581338Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:15:52.597677Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:15:54.610319Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:15:56.627583Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:15:57.248582Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:15:58.785481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:16:00.796220Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:16:02.809046Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:16:04.819722Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:16:06.851554Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:16:08.882825Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:16:10.898752Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:16:12.930843Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:16:13.626630Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:16:15.200181Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:16:14.893956Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:16:16.901683Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:16:18.916948Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:16:20.935665Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:16:22.951732Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:16:24.959530Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:16:26.969431Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:16:27.615588Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:16:29.150578Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:16:31.157615Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:16:33.182246Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:16:35.218457Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:16:37.227460Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:16:39.258868Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:16:41.282475Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:16:43.197345Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:16:41.713799Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:16:43.251156Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:16:45.270493Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:16:47.284417Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:16:49.300006Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:16:51.308764Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:16:53.320738Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:16:55.331298Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:16:57.339475Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:16:57.989217Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:16:59.502683Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:17:01.522253Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:17:03.543942Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:17:05.566366Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:17:07.594382Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:17:09.618715Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:17:09.375609Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:17:11.383246Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:17:12.115102Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:17:13.695333Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:17:15.737474Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:17:17.769961Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:17:19.806533Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:17:21.841808Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:17:23.886493Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:17:25.895632Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:17:27.913990Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:17:28.578377Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:17:30.162819Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:17:32.167160Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:17:34.174892Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:17:36.202640Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:17:38.236865Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:17:37.943320Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:17:39.953423Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:17:41.963887Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:17:42.774777Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:17:44.317710Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:17:46.326889Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:17:48.335734Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:17:50.345205Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:17:52.358214Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:17:54.365862Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:17:56.372720Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:17:58.376668Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:17:59.041552Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:18:00.596842Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:18:02.602078Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:18:04.613604Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:18:04.303451Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:18:06.315313Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:18:08.324559Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:18:10.331566Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:18:12.341939Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:18:13.019911Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:18:14.564783Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:18:16.574898Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:18:18.603009Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:18:20.610476Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:18:22.628314Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:18:24.647398Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:18:26.660641Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:18:28.670657Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:18:29.314607Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:18:30.846716Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:18:32.856898Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:18:32.595370Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:18:34.601040Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:18:36.655840Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:18:38.661662Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:18:40.668044Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:18:42.674103Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:18:43.440922Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:18:44.966540Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:18:47.001534Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:18:49.064368Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:18:51.069997Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:18:53.135670Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:18:55.183955Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:18:57.194252Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:18:59.202527Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:18:59.852960Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:19:01.374292Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:19:01.039346Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:19:03.062532Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:19:05.081655Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:19:07.102213Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:19:09.113499Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:19:11.117836Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:19:13.130309Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:19:13.790236Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:19:15.329468Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:19:17.336167Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:19:19.345465Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:19:21.351327Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:19:23.359007Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:19:25.373380Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:19:27.379219Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:19:29.383222Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:19:29.966863Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:19:31.496654Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:19:33.517195Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:19:35.525521Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:19:37.531990Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:19:39.539871Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:19:41.549322Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:19:43.569537Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:19:42.194054Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:19:42.966226Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:19:44.482548Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:19:46.489915Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:19:48.496653Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:19:50.502462Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:19:52.513123Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:19:54.523696Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:19:55.418200Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:19:57.421908Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:19:58.135295Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:19:59.669788Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:20:01.681205Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:20:03.686426Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:20:05.693546Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:20:07.714126Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:20:09.737605Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:20:11.758487Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:20:13.764604Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:20:14.419382Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:20:15.926413Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:20:17.933543Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:20:19.979930Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:20:21.993360Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:20:24.015907Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:20:23.687493Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:20:25.709343Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:20:27.717768Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:20:28.404096Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:20:29.928122Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:20:31.948334Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:20:33.965174Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:20:35.977631Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:20:37.987454Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:20:39.995574Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:20:42.010522Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:20:44.026589Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:20:44.649478Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:20:46.180607Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:20:48.207414Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:20:50.231192Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:20:52.241416Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:20:51.970486Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:20:53.979732Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:20:56.004358Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:20:58.030360Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:20:58.670492Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:21:00.189930Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:21:02.211735Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:21:04.223402Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:21:06.240826Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:21:08.259406Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:21:10.295714Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:21:12.330894Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:21:14.341043Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:21:14.956802Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:21:16.469467Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:21:18.489643Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:21:20.382054Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:21:20.202617Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:21:22.227624Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:21:24.232683Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:21:26.267146Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:21:28.277590Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:21:28.984258Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:21:30.527878Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:21:32.536455Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-23T22:21:34.544752Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-23T22:21:36.578978Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-23T22:21:38.592277Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-23T22:21:40.597122Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-23T22:21:42.601628Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-23T22:21:44.609703Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-23T22:21:45.290113Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-23T22:21:46.831196Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-23T22:21:46.498209Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-24T23:56:49.397839Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-24T23:56:56.510270Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:26:28.249255Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:26:29.765492Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:26:31.819203Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:26:33.846686Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:26:35.877807Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:26:37.890657Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:26:39.896250Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:26:41.911325Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:26:43.920990Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:26:44.845739Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:26:46.376676Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:26:48.383902Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:26:48.080614Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:26:50.087193Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:26:52.103448Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:26:54.117900Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:26:56.129290Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:26:58.140298Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:26:58.989238Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:27:00.530334Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:27:02.549623Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:27:04.564225Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:27:06.577106Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:27:08.597049Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:27:10.614811Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:27:12.640711Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:27:14.660925Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:27:15.558805Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:27:17.093676Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:27:16.658903Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:27:18.676311Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:27:20.691358Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:27:22.702862Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:27:24.714233Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:27:26.725630Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:27:28.730468Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:27:29.600904Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:27:31.119650Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:27:33.126859Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:27:35.138044Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:27:37.155928Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:27:39.170587Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:27:41.188504Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:27:43.198395Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:27:45.210066Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:27:43.995077Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:27:45.544066Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:27:47.551009Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:27:49.555152Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:27:51.575737Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:27:53.585691Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:27:55.603332Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:27:57.669819Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:27:59.699781Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:28:00.599151Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:28:02.160987Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:28:04.173435Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:28:06.211255Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:28:08.235459Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:28:10.244810Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:28:12.253871Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:28:12.064763Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:28:14.080643Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:28:15.135628Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:28:16.679224Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:28:18.723609Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:28:20.735076Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:28:22.779593Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:28:24.847723Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:28:26.853450Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:28:28.861100Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:28:30.866580Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:28:31.862166Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:28:33.399193Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:28:35.443178Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:28:37.489088Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:28:39.494793Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:28:39.136143Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:28:41.167165Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:28:43.194824Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:28:45.201412Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:28:46.053004Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:28:47.634871Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:28:49.647708Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:28:51.668317Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:28:53.684306Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:28:55.756135Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:28:57.824199Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:28:59.830087Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:29:01.846813Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:29:02.784526Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:29:04.316518Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:29:06.345887Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:29:08.395252Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:29:08.169273Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:29:10.175505Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:29:12.205858Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:29:14.248046Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:29:16.291785Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:29:17.165109Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:29:18.697556Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:29:20.726606Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:29:22.750374Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:29:24.759033Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:29:26.768956Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:29:28.794063Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:29:30.845987Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:29:32.901965Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:29:33.778449Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:29:35.299267Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:29:35.057401Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:29:37.075270Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:29:39.107031Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:29:41.143875Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:29:43.164427Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:29:45.199906Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:29:47.219554Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:29:48.163117Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:29:49.687255Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:29:51.702384Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:29:53.718578Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:29:55.728658Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:29:57.747779Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:29:59.780214Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:30:01.801245Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:30:03.845524Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:30:02.308728Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:30:03.836467Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:30:05.896102Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:30:07.911056Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:30:09.922262Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:30:11.938317Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:30:13.968865Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:30:15.973496Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:30:17.984501Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:30:18.913187Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:30:20.464940Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:30:22.498522Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:30:24.505811Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:30:26.511896Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:30:28.520511Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:30:30.533616Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:30:30.308707Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:30:32.340288Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:30:33.258382Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:30:34.791145Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:30:36.797481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:30:38.811053Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:30:40.823036Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:30:42.848840Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:30:44.861871Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:30:46.868758Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:30:48.874704Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:30:49.753045Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:30:51.300794Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:30:53.306768Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:30:55.319749Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:30:57.349437Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:30:59.379279Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:30:59.067075Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:31:01.079536Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:31:03.089646Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:31:03.910116Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:31:05.474481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:31:07.524715Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:31:09.538006Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:31:11.551384Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:31:13.568625Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:31:15.633227Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:31:17.693931Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:31:19.741417Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:31:20.611292Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:31:22.147834Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:31:24.159394Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:31:26.166797Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:31:25.888217Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:31:27.915073Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:31:29.938349Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:31:31.956553Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:31:33.964443Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:31:34.888608Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:31:36.463160Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:31:38.468986Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:31:40.500254Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:31:42.536657Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:31:44.576940Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:31:46.657993Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:31:48.702969Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:31:50.709736Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:31:51.663585Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:31:53.216303Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:31:56.335663Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:31:54.885800Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:31:56.908999Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:31:58.923847Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:32:00.948458Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:32:02.974541Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:32:04.985789Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:32:05.866994Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:32:07.402772Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:32:09.413579Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:32:11.433021Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:32:13.487457Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:32:15.508793Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:32:17.517324Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:32:19.524130Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:32:21.529995Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:32:22.356567Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:32:21.620010Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:32:23.636848Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:32:25.649158Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:32:27.670347Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:32:29.693515Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:32:31.710350Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:32:33.733130Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:32:35.748240Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:32:36.633085Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:32:38.167940Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:32:40.193153Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:32:42.228595Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:32:44.261630Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:32:46.286774Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:32:48.310945Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:32:51.454895Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:32:49.955076Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:32:50.827196Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:32:52.364731Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:32:54.371935Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:32:56.383981Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:32:58.410069Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:33:00.419654Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:33:02.428193Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:33:04.434631Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:33:06.442256Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:33:07.356474Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:33:08.904357Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:33:10.920859Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:33:12.938230Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:33:14.954134Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:33:16.968958Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:33:16.824504Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:33:18.842202Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:33:20.871544Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:33:21.793398Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:33:23.342581Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:33:25.372954Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:33:27.411731Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:33:29.430241Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:33:31.461863Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:33:33.474394Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:33:35.492937Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:33:37.509336Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:33:38.495127Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:33:40.064025Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-25T00:33:42.079436Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-25T00:33:44.123074Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-25T00:33:43.741270Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-25T00:33:45.782121Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-25T00:33:47.788278Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-25T00:33:49.828507Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-25T00:33:51.869867Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-25T00:33:52.745123Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-25T00:33:54.283344Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T18:36:59.374115Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:09.063859Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:14.494328Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:19.709182Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:25.136508Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:31.380368Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:39.083310Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:37:50.101497Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:38:07.794425Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:38:38.371367Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:39:34.453543Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:40:39.539317Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:41:44.520369Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:42:49.089265Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:43:53.624659Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:44:58.142080Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:46:02.828736Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:47:07.470746Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:48:12.308740Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:49:16.954687Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:50:21.935797Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:51:26.808171Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:52:31.475154Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:53:36.095746Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T18:54:45.601332Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:20.508242Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:29.720804Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:37.940748Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:44.773951Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:51.653448Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:54:58.631544Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:55:07.245531Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:55:18.273023Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:55:35.511424Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:56:05.565267Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:57:01.350943Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:58:06.855552Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T20:59:11.562782Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:00:16.140687Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:01:20.748096Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:02:25.271816Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:03:29.688715Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:04:34.058599Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:05:40.296910Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:06:44.831286Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:07:49.482330Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:08:53.859089Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:09:58.278763Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:11:02.613235Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:12:07.044895Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:13:11.775766Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:14:16.450518Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:15:20.836670Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:16:25.490655Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:17:30.179285Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:18:34.852087Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:19:39.293258Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:20:43.691603Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:21:48.132764Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:22:52.611791Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:23:56.985052Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:25:01.941104Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:26:06.458649Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:27:10.794416Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:28:15.180290Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:29:19.935317Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:30:24.683350Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:31:29.420736Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:32:34.507109Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:33:39.389183Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:34:43.853716Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:35:48.234381Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:36:52.648887Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:37:57.087716Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:39:08.734014Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:40:14.456012Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:41:19.200641Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:42:24.175086Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:43:28.720744Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:44:33.718178Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:45:38.169957Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:46:42.702934Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:47:47.444407Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:48:51.923441Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:49:57.281716Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:51:02.013887Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:52:06.468061Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:53:10.849252Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:54:15.405680Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:55:20.148325Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:56:24.807389Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:57:29.872270Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:58:34.835045Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T21:59:39.810488Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:00:44.569059Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:01:49.253097Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:02:54.734966Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:03:59.504309Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:05:04.016599Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:06:08.445539Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:07:13.199483Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:08:18.875023Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:09:23.775149Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:10:28.858754Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:11:33.800584Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:12:39.007187Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:13:43.738988Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:14:48.329521Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:15:52.909319Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:16:57.480615Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:18:02.048174Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:19:06.724762Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:20:11.444082Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:21:16.330117Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:22:21.384603Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:23:26.238327Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:24:31.028264Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:25:36.863430Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:42:57.763209Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:42:59.281713Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:43:01.286911Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:43:03.290973Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:43:05.296342Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:43:07.304985Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:43:09.321453Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:43:11.338237Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:43:13.343002Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:43:14.412557Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:43:15.935807Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:43:18.002913Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:43:20.007271Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:43:22.011676Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:43:24.017614Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:43:26.022740Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:43:28.025944Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:43:30.030253Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:43:31.290304Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:43:32.805567Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:43:34.811273Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:43:36.816686Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:43:38.821623Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:43:40.844828Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:43:42.865575Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:43:44.869740Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:43:46.873698Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:43:47.960382Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:43:49.472295Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:43:51.478295Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:43:53.484054Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:43:55.491520Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:43:57.500143Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:43:59.504759Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:44:01.538225Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:44:03.544213Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:44:05.030181Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:44:06.545755Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:44:08.550766Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:44:10.563492Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:44:12.571524Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:44:14.578155Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:44:16.583433Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:44:18.587936Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:44:20.592045Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:44:21.791632Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:44:23.334861Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:53:35.818864Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:53:37.332842Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:53:39.336565Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:53:41.339752Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:53:43.344192Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:53:45.355726Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:53:47.367577Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:53:49.398826Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:53:51.403314Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:53:52.603967Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:53:54.118057Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:53:56.122431Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:53:58.128029Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:54:00.132656Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:54:02.138958Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:54:04.144997Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:54:06.179613Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:54:08.183572Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:54:09.239363Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:54:10.763644Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:54:12.768748Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:54:14.775151Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:54:16.782782Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}
+{"timestamp": "2025-11-30T22:54:18.788382Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Invalid RSA-encrypted session key"}
+{"timestamp": "2025-11-30T22:54:20.792852Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Signature forgery attempt"}
+{"timestamp": "2025-11-30T22:54:22.797305Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Sending random garbage bytes"}
+{"timestamp": "2025-11-30T22:54:24.800945Z", "level": "INFO", "process": "attacker_secure", "message": "ATTACKER FINISHED"}
+{"timestamp": "2025-11-30T22:54:25.822334Z", "level": "INFO", "process": "attacker_secure", "message": "SECURE ATTACKER STARTED"}
+{"timestamp": "2025-11-30T22:54:27.337410Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Fake message with forged signature"}
+{"timestamp": "2025-11-30T22:54:29.342108Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Replay attack with OLD timestamp"}
+{"timestamp": "2025-11-30T22:54:31.346463Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: Future timestamp attack (clock tampering)"}
+{"timestamp": "2025-11-30T22:54:33.351481Z", "level": "WARNING", "process": "attacker_secure", "message": "ATTACK: AES-GCM tampering attack"}

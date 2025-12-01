@@ -1,0 +1,30 @@
+# ACL File for Mosquitto Broker
+# Format: topic [read|write|readwrite] <topic>
+# User-specific ACLs
+
+# Sensor users can publish to home/* topics
+user sensor1
+topic write home/#
+
+user sensor_secure
+topic write home/#
+
+# Actuator users can subscribe to home/* topics
+user actuator1
+topic read home/#
+
+user actuator_secure
+topic read home/#
+
+# Attacker user (for demo purposes)
+# In secure mode, restrict attacker access
+user attacker
+topic read home/#
+topic write attack/#
+
+# Admin user has full access
+user admin
+topic readwrite #
+
+# Default: deny all if no match
+# pattern read $SYS/#

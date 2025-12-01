@@ -1,0 +1,13 @@
+===== CEN455 METRICS SUMMARY =====
+
+ATTACK RESULTS
+-------------------------
+Insecure System: 0 successful attacks
+Secure System: 1154 blocked attacks
+
+LATENCY STATISTICS
+-------------------------
+Insecure Avg: 4.23 ms
+Secure Avg:  21.14 ms
+
+Security Overhead: +16.91 ms (400.1%)

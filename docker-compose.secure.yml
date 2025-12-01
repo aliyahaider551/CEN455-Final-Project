@@ -1,0 +1,66 @@
+services:
+
+  mqtt-broker:
+    image: eclipse-mosquitto:2
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./broker/data:/mosquitto/data
+      - ./broker/log:/mosquitto/log
+    networks:
+      - mqtt-network
+
+  sensor_secure:
+    build:
+      context: .
+      dockerfile: Dockerfile.sensor.secure
+    container_name: sensor_secure
+    depends_on:
+      - mqtt-broker
+    environment:
+      - MQTT_HOST=mqtt-broker
+      - MODE=secure
+    volumes:
+      - ./src/utils/keys:/app/src/utils/keys
+      - ./logs:/app/logs
+    restart: always
+    networks:
+      - mqtt-network
+
+  actuator_secure:
+    build:
+      context: .
+      dockerfile: Dockerfile.actuator.secure
+    container_name: actuator_secure
+    depends_on:
+      - mqtt-broker
+    environment:
+      - MQTT_HOST=mqtt-broker
+      - MODE=secure
+    volumes:
+      - ./src/utils/keys:/app/src/utils/keys
+      - ./logs:/app/logs
+    restart: always
+    networks:
+      - mqtt-network
+
+  attacker_secure:
+    build:
+      context: .
+      dockerfile: Dockerfile.attacker.secure
+    container_name: attacker_secure
+    depends_on:
+      - mqtt-broker
+    environment:
+      - MQTT_HOST=mqtt-broker
+      - MODE=secure
+    volumes:
+      - ./logs:/app/logs
+    restart: always
+    networks:
+      - mqtt-network
+
+networks:
+  mqtt-network:

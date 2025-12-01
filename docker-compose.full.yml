@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  # MQTT Broker
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./broker/data:/mosquitto/data
+      - ./broker/logs:/mosquitto/log
+    networks:
+      - mqtt-network
+    healthcheck:
+      test: ["CMD", "mosquitto_sub", "-t", "$$SYS/#", "-C", "1", "-i", "healthcheck", "-W", "3"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Insecure System Components
+  sensor-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.sensor
+    container_name: sensor-insecure
+    depends_on:
+      mosquitto:
+        condition: service_healthy
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+    command: python src/insecure/sensor.py
+
+  actuator-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.actuator
+    container_name: actuator-insecure
+    depends_on:
+      mosquitto:
+        condition: service_healthy
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+    command: python src/insecure/actuator.py
+
+  attacker-insecure:
+    build:
+      context: .
+      dockerfile: Dockerfile.attacker
+    container_name: attacker-insecure
+    depends_on:
+      - sensor-insecure
+      - actuator-insecure
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - mqtt-network
+    command: python src/insecure/attacker.py
+
+networks:
+  mqtt-network:
+    driver: bridge
