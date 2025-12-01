@@ -194,7 +194,7 @@ ls logs
 Expected behavior:
 
 * gives .log files for insecure system
-* gives .logs files for secure systems
+* gives .log files for secure systems
 
 ---
 
