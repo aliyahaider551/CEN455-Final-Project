@@ -21,11 +21,11 @@ The implementation includes complete Python modules for both insecure and secure
 
 2. Objectives
 
- Demonstrate the vulnerabilities of plaintext MQTT systems
- Implement a secure, cryptography-based communication pipeline
- Integrate RSA, AES-GCM, and DSA for confidentiality, integrity & authenticity
- Apply replay protection and constant-time comparison
- Quantitatively measure security overhead and attack success rates
+Demonstrate the vulnerabilities of plaintext MQTT systems
+Implement a secure, cryptography-based communication pipeline
+Integrate RSA, AES-GCM, and DSA for confidentiality, integrity & authenticity
+Apply replay protection and constant-time comparison
+Quantitatively measure security overhead and attack success rates
 
 
 
@@ -83,8 +83,8 @@ Metrics collected via `collect_metrics.py` and visualized using `plot_results.py
 | ------------------- | --------------- | ------------- |
 | Attack success rate | **100/100**     | **0/100**     |
 | Latency             | 1–3 ms          | 10–25 ms      |
-| Message integrity   |   None          | ✔ AES-GCM     |
-| Authentication      |    None          | ✔ DSA-2048    |
+| Message integrity   |   None          |  AES-GCM     |
+| Authentication      |    None          |  DSA-2048    |
 | (Page 13–15)        |                 |               |
 
 The secure system adds a small computational cost but remains well within acceptable IoT timing thresholds.
