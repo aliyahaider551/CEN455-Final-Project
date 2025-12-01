@@ -1,204 +1,256 @@
-  **Secure Smart Home Communication Using MQTT & Cryptography**
+# Secure Smart Home Communication Using MQTT and Cryptography
 
-*A Comparative Implementation of Insecure vs Secure IoT Messaging Pipelines*
+A Comparative Implementation of Insecure vs Secure IoT Messaging Pipelines
+
 
 
  Abstract
 
-This project develops and evaluates two MQTT-based smart home communication systems—one deliberately insecure and one fully secured using modern cryptography. The insecure design demonstrates how eavesdropping, spoofing, tampering, and replay attacks completely compromise plaintext IoT pipelines. The secure system integrates RSA-2048 key exchange, AES-256-GCM encryption, DSA-2048 digital signatures, replay protection, constant-time comparison, and broker-level hardening. Metrics collected from both systems confirm that cryptographic protection blocks 100% of attacks while maintaining practical IoT latency ranges.
+This project implements and evaluates two IoT messaging pipelines using the MQTT protocol: an insecure plaintext system and a secured cryptographic system. The insecure pipeline demonstrates how eavesdropping, tampering, spoofing, and replay attacks can easily compromise unprotected IoT communication. The secure system integrates RSA-2048 key exchange, AES-256-GCM authenticated encryption, DSA-2048 signatures, replay protection, constant-time comparison, and MQTT broker authentication. Quantitative metrics confirm that the secure system blocks 100% of attacks while maintaining practical IoT latency within acceptable limits.
 
 
- 1. Project Overview
 
-MQTT is widely used in IoT environments due to its lightweight publish–subscribe model—but its default configuration provides **no encryption, no authentication, and no integrity checks**. This project shows:
+1. Project Overview
 
-* How an **unsecured MQTT workflow** is vulnerable to real-world IoT attacks
-* How layered cryptography transforms it into a **strong, attack-resistant communication system**
+MQTT is widely used in IoT environments due to its lightweight publish–subscribe architecture. However, the default MQTT workflow includes no encryption, no authentication, and no message integrity verification. This project demonstrates:
 
-The implementation includes complete Python modules for both insecure and secure systems, along with attack scripts, Docker environments, and quantitative evaluation tools.
+* How plaintext MQTT communication is vulnerable to real-world cyberattacks.
+* How layered cryptography transforms MQTT into a secure, attack-resistant system.
+* How both insecure and secure pipelines behave under identical attack conditions.
+
+The repository includes complete implementations of insecure and secure systems, attack scripts, Docker environments, and tools for metric collection and visualization.
 
 
 
 2. Objectives
 
-Demonstrate the vulnerabilities of plaintext MQTT systems
-Implement a secure, cryptography-based communication pipeline
-Integrate RSA, AES-GCM, and DSA for confidentiality, integrity & authenticity
-Apply replay protection and constant-time comparison
-Quantitatively measure security overhead and attack success rates
+* Demonstrate vulnerabilities of plaintext MQTT communication.
+* Implement security mechanisms using RSA, AES-GCM, and DSA.
+* Add replay protection and constant-time comparison for side-channel defense.
+* Quantitatively compare attack success rates and latency overhead.
+* Build reproducible Docker setups for both insecure and secure systems.
 
 
 
- 3. System Architecture
+3. System Architecture
 
- **Phase I — Insecure MQTT System**
+Phase I — Insecure MQTT System
 
-* Plaintext sensor → broker → actuator messages
-* No authentication, no encryption, no integrity protection
-* Attacker can:
+* Plaintext communication between sensor, broker, and actuator.
+* No authentication or encryption.
+* Vulnerable to:
 
-  *  Eavesdrop
-  * Inject forged packets
-  * Replay captured messages
-  * Tamper with payload fields
-  * Outcome: 100% of attacks successful
+  * Eavesdropping
+  * Tampering
+  * Forged message injection
+  * Replay attacks
+* Result: All attacks succeed without detection.
 
+Phase II — Secure MQTT System
 
- **Phase II — Secure MQTT System**
+Cryptographic Features
 
-Security features include:
+* RSA-2048 for session-key exchange.
+* AES-256-GCM for confidentiality and integrity.
+* DSA-2048 for digital signatures.
+* Constant-time comparison to prevent timing attacks.
+* Replay counters to prevent message reuse.
+* MQTT broker authentication (ACLs, usernames, passwords).
 
- Cryptography
+Secure Message Flow
 
-* RSA-2048 → secure session-key exchange
-* AES-256-GCM → encryption + integrity (AEAD)
-* DSA-2048 → digital signatures for authentication
+1. Sensor generates AES session key.
+2. Payload encrypted using AES-256-GCM.
+3. AES key encrypted with RSA.
+4. DSA signatures created for authenticity.
+5. Encrypted message published to secure broker topic.
 
-  Protections
+Outcome
 
-* Monotonic counters → replay attack prevention
-* Constant-time comparison → timing attack resistance
-* Broker ACLs + credentials → client authentication
-* Secure message protocol:
+* All malicious packets are rejected.
+* No replay, no tampering, and no forgery are accepted.
+* Attacker is unable to read ciphertext.
 
-  1. Generate AES session key
-  2. Encrypt payload with AES-GCM
-  3. Encrypt session key with RSA
-  4. Sign fields with DSA
-  5. Publish to secure topic
+Phase III — Metrics and Performance Evaluation
 
- Outcome
+Metrics collected using:
 
-100% malicious packets blocked
-All ciphertext unreadable to attacker
- No replay, tampering, or forgery accepted
+```
+collect_metrics.py
+plot_results.py
+```
 
-  **Phase III — Metrics & Performance Evaluation**
-
-Metrics collected via `collect_metrics.py` and visualized using `plot_results.py`.
-
- Key Findings
+Summary of results:
 
 | Metric              | Insecure System | Secure System |
 | ------------------- | --------------- | ------------- |
-| Attack success rate | **100/100**     | **0/100**     |
+| Attack success rate | 100/100         | 0/100         |
 | Latency             | 1–3 ms          | 10–25 ms      |
-| Message integrity   |   None          |  AES-GCM     |
-| Authentication      |    None          |  DSA-2048    |
-| (Page 13–15)        |                 |               |
+| Integrity           | None            | AES-GCM       |
+| Authentication      | None            | DSA-2048      |
 
-The secure system adds a small computational cost but remains well within acceptable IoT timing thresholds.
+The secure system introduces only minor computational overhead.
 
----
+
 
  4. Repository Structure
 
 ```
 src/
 │
-├── insecure/        # Plaintext MQTT system (Phase I)
+├── insecure/
 │   ├── sensor.py
 │   ├── actuator.py
-│   └── attacker.py
+│   ├── attacker.py
+│   ├── timing_attack_demo.py
+│ 
 │
-├── secure/          # Cryptographically secure system (Phase II)
+├── secure/
 │   ├── sensor_secure.py
 │   ├── actuator_secure.py
 │   └── attacker_secure.py
 │
-├── common/          # Shared modules
-│   ├── mq_helpers.py
+├── common/
 │   ├── crypto_utils.py
+│   ├── mq_helpers.py
 │   └── logger.py
 │
 └── utils/
     └── generate_keys.py
+
+docker-compose.insecure.yml  
+docker-compose.secure.yml  
+logs/  
+metrics/  
 ```
 
-Plus:
-
-* `docker-compose.insecure.yml`
-* `docker-compose.secure.yml`
-* `/logs`
-* `/metrics`
 
 
+5. Setup Instructions
 
-  5. Running the Systems (Docker)
+Prerequisites
 
-  Run Insecure System
+* Docker
+* Docker Compose
+* Python 3.10 or above
+
+Verify installation:
+
+```
+docker --version
+docker compose version
+python --version
+```
+
+
+
+6. Generate Cryptographic Keys
+
+Before running the secure pipeline:
+
+```
+python utils/generate_keys.py
+```
+
+This creates RSA, DSA, and AES key materials inside the `keys/` directory.
+
+ 7. Running the Insecure System
+
+Start the insecure MQTT pipeline:
 
 ```
 docker compose -f docker-compose.insecure.yml up --build
 ```
 
-Expect:
+Expected behavior:
 
-* Plaintext logs
-* Successful replay, injection & tampering attacks
-* Attacker reading traffic freely
+* Plaintext MQTT traffic visible in logs.
+* Attacker successfully performs:
+
+  * Eavesdropping
+  * Tampering
+  * Injection
+  * Replay
+* No detection or rejection.
 
 
 
-  Run Secure System
+ 8. Running the Secure System
+
+Start the secure pipeline:
 
 ```
 docker compose -f docker-compose.secure.yml up --build
 ```
 
-Expect:
+9. Logs
 
-* AES-GCM encrypted payloads
-* RSA-encrypted session keys
-* Valid/invalid signature logs
-* Replay detection rejections
+Check for Logs
 
-6. Attack Demonstration Summary
+```
+ls logs
+```
+
+Expected behavior:
+
+* gives .log files for insecure system
+* gives .logs files for secure systems
+
+---
+
+10. Metrics Collection and Visualization
+
+Collect metrics:
+
+```
+python collect_metrics.py
+```
+
+Generate plots:
+
+```
+python plot_results.py
+```
+
+Plots include:
+
+* Attack success rate comparison
+* Latency comparison
+
+
+
+11. Attack Demonstration Summary
 
 | Attack Type   | Insecure Result | Secure Result                |
 | ------------- | --------------- | ---------------------------- |
-| Eavesdropping | Full visibility | Ciphertext only              |
+| Eavesdropping | Fully visible   | Ciphertext only              |
 | Injection     | Accepted        | Rejected (invalid signature) |
-| Replay        | Accepted        | Rejected (counter check)     |
-| Tampering     | Accepted        | Rejected (GCM tag mismatch)  |
+| Replay        | Accepted        | Rejected (counter mismatch)  |
+| Tampering     | Accepted        | Rejected (GCM tag failure)   |
 
 
- 7. Quantitative Analysis (Key Plots)
 
-Attack Success Rate Plot
+ 12. Timing Attack Demonstration (Insecure System)
 
-* Insecure → **0** attacks blocked
-* Secure → **270+** attacks blocked
-   
+The insecure folder includes a timing-attack demonstration showing how early-exit comparison logic leaks timing information. This demo is executed outside Docker so that timing measurements remain accurate.
 
-Security Overhead Plot
+Step 1 — Navigate to the insecure directory
 
-* Mean insecure latency → **4.23 ms**
-* Mean secure latency → **21.14 ms**
+```
+cd src/insecure
+```
 
-Even with cryptographic operations, secure latency remains IoT-safe.
+ Step 2 — Run the vulnerable comparison server
 
-8. Timing Attack Analysis
+```
+python timing_attack_demo.py
+```
 
-Evaluates:
-
-* Early-exit comparison (leaks timing patterns)
-*  Constant-time comparison (uniform timing)
-
-Example vulnerable timings (µs):
-
-* All wrong → 0.767
-* 15/16 bytes correct → 1.260
-
-Constant-time timings: 2.14–3.99 µs with no correlation.
-
-**Conclusion:** constant-time comparison is essential for preventing side-channel leakage.
+Leave this terminal running.
 
 
- 9. Conclusion
+ 13. Conclusion
 
-* The insecure MQTT system is completely exposed to all major IoT attack vectors.
-* Integrating AES-GCM, RSA, DSA, replay protection, and broker authentication results in **full attack mitigation**.
-* Cryptographic overhead remains minimal and practical for real-world IoT.
+The insecure MQTT pipeline is vulnerable to all major IoT attack vectors, including eavesdropping, tampering, forgery, and replay. The secure system, which integrates AES-GCM, RSA-2048, DSA-2048, replay counters, and broker authentication, prevents all observed attacks. Quantitative evaluations confirm that the secure pipeline blocks 100% of attacks while maintaining a small and acceptable performance overhead. This project demonstrates how layered cryptography significantly strengthens the security of smart home communication systems.
 
 
